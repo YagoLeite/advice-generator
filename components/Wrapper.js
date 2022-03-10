@@ -55,17 +55,8 @@ const Wrapper = () => {
         textAlign="center"
         pb="6%"
       >
-        "{loadedData?.slip.advice}"
+        {`"${loadedData?.slip.advice}"`}
       </Text>
-      {/* <Flex
-        position="absolute"
-        bottom="15%"
-        justifyContent="center"
-        alignItems={"center"}
-        objectFit="cover"
-      >
-        <Image src={test} />
-      </Flex> */}
       <Flex position={"absolute"} maxW="80%" bottom="15%" pb="3%">
         <Image src={dividerDesktop} />
       </Flex>
