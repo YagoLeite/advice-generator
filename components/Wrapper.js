@@ -55,7 +55,7 @@ const Wrapper = () => {
         textAlign="center"
         pb="6%"
       >
-        {`"${loadedData?.slip.advice}"`}
+        {`"${loadedData ? loadedData?.slip.advice : "Loading..."}"`}
       </Text>
       <Flex position={"absolute"} maxW="80%" bottom="15%" pb="3%">
         <Image alt="divider" src={dividerDesktop} />
