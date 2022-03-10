@@ -58,7 +58,7 @@ const Wrapper = () => {
         {`"${loadedData?.slip.advice}"`}
       </Text>
       <Flex position={"absolute"} maxW="80%" bottom="15%" pb="3%">
-        <Image src={dividerDesktop} />
+        <Image alt="divider" src={dividerDesktop} />
       </Flex>
       <Flex
         onClick={() => {
@@ -76,7 +76,7 @@ const Wrapper = () => {
         alignItems="center"
         _hover={{ shadow: "0px 0px 20px 10px hsl(150, 100%, 66%)" }}
       >
-        <Image src={diceIcon} />
+        <Image alt="dice" src={diceIcon} />
       </Flex>
     </VStack>
   );
