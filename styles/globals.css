@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-.test {
-  transform: rotate(30deg);
-  transition: ease 0.2s;
+.rotate {
+  transform: rotate(1080deg);
+  transition: ease 4s;
 }
